@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Smokifier</string>
+    <string name="notification">Time to smoke</string>
+    <string name="notification_channel_description">You have not smoked for a long time, but the time has come.</string>
+    <string name="strNotify">Notify</string>
+    <string name="hoursCaption">h</string>
+    <string name="minutesCaption">m</string>
+    <string name="start">Start</string>
+    <string name="timer_expires">Remained: %02d:%02d:%02d</string>
+    <string name="motto">Do not forget to quit smoking!</string>
+</resources>

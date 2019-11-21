@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:theme="@style/Theme.Design.NoActionBar"
+    tools:context="com.temofeyk.smokifier.screens.main.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_40"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/numberPickerHours"
+            style="@style/NumberPickerStyle" />
+
+        <TextView
+            android:id="@+id/txtSetHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hoursCaption"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/size_text_inputs"
+            android:textStyle="bold" />
+
+        <NumberPicker
+            android:id="@+id/numberPickerMinutes"
+            style="@style/NumberPickerStyle" />
+
+        <TextView
+            android:id="@+id/txtSetMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/minutesCaption"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/size_text_inputs"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        style="@style/SeparatorStyle"
+        android:layout_marginBottom="@dimen/margin_40" />
+
+    <Button
+        android:id="@+id/start_btn"
+        style="@style/ButtonStyle"
+        android:text="@string/strNotify">
+
+        <requestFocus />
+    </Button>
+    <View
+        style="@style/SeparatorStyle"
+        android:layout_marginTop="@dimen/margin_40"
+        android:layout_marginBottom="@dimen/margin_40" />
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/timer_expires"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:gravity="center"
+        android:text="@string/timer_expires"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/size_text_inputs"
+        tools:targetApi="o" />
+
+</LinearLayout>

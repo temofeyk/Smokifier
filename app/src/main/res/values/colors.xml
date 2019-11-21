@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#C7C7CC</color>
+    <color name="colorAccent">#007AFF</color>
+
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorTextWhite">#F9F9F9</color>
+    <color name="colorSeparator">#BCBBC1</color>
+    <color name="colorDialogSeparator">#3F3F3F</color>
+    <color name="colorDialogBackground">#F8F8F8</color>
+
+    <color name="colorSearchBackground">#1F007AFF</color>
+
+    <color name="colorBottomNavigationGrayIcon">#C8C7CC</color>
+    <color name="colorTextGray">#8A8A8F</color>
+    <color name="colorTabBackground">#108A8A8F</color>
+
+    <color name="colorLightIndicator">#e8334a</color>
+
+</resources>

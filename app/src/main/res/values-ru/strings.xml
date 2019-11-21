@@ -1,0 +1,10 @@
+<resources>
+    <string name="notification">Пора курить</string>
+    <string name="notification_channel_description">Вы давно не курили, а уже пора бы.</string>
+    <string name="strNotify">Напомнить</string>
+    <string name="hoursCaption">ч</string>
+    <string name="minutesCaption">м</string>
+    <string name="start">Начать</string>
+    <string name="timer_expires">Осталось: %02d:%02d:%02d</string>
+    <string name="motto">Не забудь бросить курить!</string>
+</resources>
